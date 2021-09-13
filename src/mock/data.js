@@ -17,49 +17,49 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  img: 'profile.jpeg',
+  paragraphOne: 'Father, husband and Web Developer on the Applications team at VERB Interactive.',
+  paragraphTwo: 'My primary focus lately has been data driven web applications built with React',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://www.linkedin.com/in/paulbriar/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'lollipop.png',
+    title: 'Take This Lollipop',
+    info: 'A reboot of the Emmy winning Take This Lollipop V1 and a zoom call you will never forget',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://takethislollipop.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'remax.png',
+    title: 'Remax Hustle Video Editor',
+    info: 'A tool the allows agents to make professional-quality RE/MAX videos',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://videoeditor.remaxhustle.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'pga.png',
+    title: 'PGA Tour Experiences',
+    info: 'Consumer facing golf booking tool',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.pgatourexperiences.com/book-tee-time',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Want to chat? Awesome',
   btn: '',
-  email: '',
+  email: 'me@paulbriar.com',
 };
 
 // FOOTER DATA
@@ -68,27 +68,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/PaulBriar',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/paulbriar/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/PaulBriar',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
