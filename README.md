@@ -1,1 +1,1 @@
-# PaulBriar.com Personal Site [![Netlify Status](https://api.netlify.com/api/v1/badges/9430e22f-82bc-4dd7-9bed-ae1e233f2e79/deploy-status)](https://app.netlify.com/sites/pensive-kilby-af07ee/deploys)
+# Rosebud.digital landing page [![Netlify Status](https://api.netlify.com/api/v1/badges/9430e22f-82bc-4dd7-9bed-ae1e233f2e79/deploy-status)](https://app.netlify.com/sites/pensive-kilby-af07ee/deploys)
