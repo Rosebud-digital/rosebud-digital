@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Paul Briar | Developer', // e.g: 'Name | Developer'
+  title: 'Rosebud Digital Inc. ', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'PaulBriar.com', // e.g: Welcome to my website
+  description: 'rosebud.digital', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -18,39 +18,23 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpeg',
-  paragraphOne: 'Father, husband and Web Developer on the Applications team at VERB Interactive.',
-  paragraphTwo: 'My primary focus lately has been data driven web applications built with React',
+  paragraphOne:
+    'Rosebud Digital Inc. is focused on creating relevant and engaging online experiences.',
+  paragraphTwo: "We have recently launched Verilocal.ca, Canada's verified buy and sell.",
   paragraphThree: '',
-  resume: 'https://www.linkedin.com/in/paulbriar/', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'lollipop.png',
-    title: 'Take This Lollipop',
-    info: 'A reboot of the Emmy winning Take This Lollipop V1 and a zoom call you will never forget',
-    info2: '',
-    url: 'https://takethislollipop.com/',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'remax.png',
-    title: 'Remax Hustle Video Editor',
-    info: 'A tool the allows agents to make professional-quality RE/MAX videos',
-    info2: '',
-    url: 'https://videoeditor.remaxhustle.com/',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'pga.png',
-    title: 'PGA Tour Experiences',
-    info: 'Consumer facing golf booking tool',
-    info2: '',
-    url: 'https://www.pgatourexperiences.com/book-tee-time',
+    img: 'verilocal.png',
+    title: 'Verilocal.ca',
+    info: 'The verified local marketplace. Verified sellers from your local community.',
+    info2:
+      "Verilocal was created to provide Canadian's with a safe, scam and fraud free platform to buy and sell new and used items",
+    url: 'https://verilocal.ca/',
     repo: '', // if no repo, the button will not show up
   },
 ];
@@ -59,27 +43,27 @@ export const projectsData = [
 export const contactData = {
   cta: 'Want to chat? Awesome',
   btn: '',
-  email: 'me@paulbriar.com',
+  email: 'paul@rosebud.digital',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/PaulBriar',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/paulbriar/',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/PaulBriar',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: 'https://twitter.com/PaulBriar',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'linkedin',
+    //   url: 'https://www.linkedin.com/in/paulbriar/',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'github',
+    //   url: 'https://github.com/PaulBriar',
+    // },
   ],
 };
 
