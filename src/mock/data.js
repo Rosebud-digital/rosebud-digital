@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne:
     'Rosebud Digital Inc. is focused on creating relevant and engaging online experiences.',
-  paragraphTwo: "We have recently launched Verilocal.ca, Canada's verified buy and sell.",
+  paragraphTwo: "We have recently launched PerilAi.net, the future of risk management.",
   paragraphThree: '',
   resume: '', // if no resume, the button will not show up
 };
@@ -29,12 +29,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'verilocal.png',
-    title: 'Verilocal.ca',
-    info: 'The verified local marketplace. Verified sellers from your local community.',
+    img: 'perilai.png',
+    title: 'PerilAi',
+    info: 'Your trusted strategy risk assessment tool powered by AI.',
     info2:
-      "Verilocal was created to provide Canadian's with a safe, scam and fraud free platform to buy and sell new and used items",
-    url: 'https://verilocal.ca/',
+      "PerilAi was created to modernize risk assessment user powerful AI models fine tuned for risk analysis, threat intelligence and incident response assistance",
+    url: 'https://perilai.net/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'hiringcyber.png',
+    title: 'HiringCyber.com',
+    info: 'The best source for cyber security careers',
+    info2: "",
+    url: 'https://hiringcyber.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'datacareers.png',
+    title: 'HiringCyber.com',
+    info: 'The best source for data science careers',
+    info2: "",
+    url: 'https://datacareers.io',
     repo: '', // if no repo, the button will not show up
   },
 ];
